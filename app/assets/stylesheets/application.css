@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+
+section.show_page {
+  background-color: #ede1c9;
+  padding: 30px;
+  margin: 30px;
+}
+
+h2.title_header {
+  font-size: 3rem;
+  color: #2f0982;
+}
+
+h3.author_header {
+  font-size: 2rem;
+  color: #9f09c4;
+  margin: 30px;
+}
+
+h4.description_text {
+  font-size: 1rem;
+  font-style: oblique;
+  margin: 30px;
+}
