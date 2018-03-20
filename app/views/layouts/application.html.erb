@@ -7,8 +7,21 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-
-  <body>
-    <%= yield %>
-  </body>
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <%= link_to "Home", books_path %>
+        </li>
+        <li>
+          <%= link_to "Add a Book", new_book_path %>
+        </li>
+      </ul>
+    </na>
+  </header>
+  <main>
+    <body>
+      <%= yield %>
+    </body>
+  </main>
 </html>
